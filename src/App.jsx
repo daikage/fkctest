@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import PrivacyModal from './components/PrivacyModal.jsx'
+import ClickSound from './components/ClickSound.jsx'
 
 // Pages
 import Home from './pages/Home.jsx'
