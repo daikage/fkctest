@@ -14,8 +14,8 @@ export default function Navbar() {
             className="logo"
             src="/brand/logo-mark.png"   // put your file in public/brand/logo-mark.svg
             alt="FortKnox Checks"
-            width={30}
-            height={30}
+            width={70}
+            height={70}
           />
           <span>FortKnox Checks</span>
         </Link>
