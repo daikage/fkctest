@@ -50,8 +50,13 @@ const services = [
     },
   },
   {
-    title: 'KYC & Compliance Support',
-    items: ['PEP & Sanctions screening', 'Adverse media', 'Compliance documentation'],
+   title: 'KYC & Compliance Support',
+    items: [
+      'PEP & Sanctions screening',
+      // was 'Adverse media' (duplicated elsewhere) -> make distinct:
+      'Beneficial ownership checks',
+      'Compliance documentation'
+    ],
     img: {
       src: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1600&auto=format&fit=crop',
       alt: 'Compliance review session',

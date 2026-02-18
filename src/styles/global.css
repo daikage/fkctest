@@ -153,8 +153,12 @@ header.navbar {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: 0.3px;
+}
+.brand span {
+  font-weight: 900;
+  color: var(--gold);
 }
 .brand .logo {
   width: 30px;
@@ -166,10 +170,16 @@ header.navbar {
   align-items: center;
 }
 .nav a {
-  color: var(--muted);
+  color: var(--text);
   font-weight: 600;
 }
 .nav a:hover { color: var(--gold); }
+
+.nav a.active {
+  color: var(--gold);
+  font-weight: 700;
+  /* optional underline or bottom border could be added if desired */
+}
 .nav .cta { margin-left: 10px; }
 
 .menu-btn {
@@ -196,6 +206,11 @@ header.navbar {
   padding: 10px 0;
   color: var(--muted);
   border-bottom: 1px dashed rgba(255,255,255,0.1);
+}
+/* Active highlighting in mobile menu too */
+.mobile-menu a.active {
+  color: var(--gold);
+  font-weight: 700;
 }
 .mobile-menu a:last-child { border-bottom: none; }
 

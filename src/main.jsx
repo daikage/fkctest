@@ -9,6 +9,8 @@ import ScrollToTop from './components/ScrollToTop.jsx'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
+      {/* ensure scrolling and route-change feels consistent */}
+      <ScrollToTop />
       <App />
     </BrowserRouter>
   </React.StrictMode>
