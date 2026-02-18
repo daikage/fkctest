@@ -18,6 +18,8 @@ export default function App() {
   return (
     <>
       <Navbar />
+      {/* Click sound across all clickables */}
+      <ClickSound />
       {/* Show first‑launch privacy modal */}
       <PrivacyModal />
 
