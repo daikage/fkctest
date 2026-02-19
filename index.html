@@ -2,6 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Prevent theme flash before React mounts -->
+    <script>
+      (function () {
+        try {
+          const key = 'theme-preference'
+          const pref = localStorage.getItem(key) || 'system'
+          const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches
+          const isLight = pref === 'light' || (pref === 'system' && prefersLight)
+          const root = document.documentElement
+          if (isLight) root.classList.add('light')
+          else root.classList.remove('light')
+        } catch (e) {}
+      })()
+    </script>
     <meta name="author" content="FortKnox Verification & Checks Services Ltd" />
     <meta name="keywords" content="background checks Nigeria, employment screening, vendor due diligence, verification services" />
     <link rel="icon" href="/favicon.ico" />

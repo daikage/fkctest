@@ -24,12 +24,23 @@
   --bg: var(--black);
   --text: var(--white);
   --muted: #dcdcdc;
+  color-scheme: dark; /* NEW: default to dark unless overridden */
 }
 
+/* Respect system preference when no manual theme chosen */
 @media (prefers-color-scheme: light) {
   :root {
     --bg: var(--white);
     --text: #111111;
     --muted: #555555;
+    color-scheme: light; /* NEW */
   }
+}
+
+/* Manual light override when <html class="light"> is present */
+:root.light {
+  --bg: var(--white);
+  --text: #111111;
+  --muted: #555555;
+  color-scheme: light;
 }

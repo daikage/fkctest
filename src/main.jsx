@@ -5,13 +5,15 @@ import './styles/theme.css'
 import './styles/global.css'
 import { BrowserRouter } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop.jsx'
+import { ThemeProvider } from './components/ThemeProvider.jsx'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* ensure scrolling and route-change feels consistent */}
-      <ScrollToTop />
-      <App />
+      <ThemeProvider>
+        <ScrollToTop />
+        <App />
+      </ThemeProvider>
     </BrowserRouter>
   </React.StrictMode>
 )
