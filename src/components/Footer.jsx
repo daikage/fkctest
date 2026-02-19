@@ -16,7 +16,7 @@ export default function Footer() {
               width={28}
               height={28}
             />
-            <span>FortKnox Checks</span>
+            <span>FortKnox Verification and Checks Services Limited</span>
           </div>
           <p className="text-muted">
             Fort Knox Verification & Checks Services Limited delivers timely, high-quality background screening across Nigeria.

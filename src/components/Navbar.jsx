@@ -18,7 +18,7 @@ export default function Navbar() {
             width={70}
             height={70}
           />
-          <span>FortKnox Checks</span>
+          <span>FortKnox Verification and Checks Services Limited</span>
         </Link>
 
         <nav className="nav" aria-label="Primary">
