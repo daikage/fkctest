@@ -11,7 +11,7 @@ export default function ProcessPage() {
             <DiagonalMedia
               src="https://plus.unsplash.com/premium_photo-1683842188982-e2920f594fda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VkVSSUZJQ0FUSU9OJTIwUFJPQ0NFU1N8ZW58MHx8MHx8fDA%3D=crop"
               alt="African team reviewing verification workflow and evidence"
-              height={320}
+              height={340}
               direction="left"
               caption="Clear steps. Auditable outcomes."
               imgProps={{ loading: 'eager', decoding: 'sync' }}

@@ -23,7 +23,7 @@ export default function WhyUsPage() {
             <DiagonalMedia
               src="https://plus.unsplash.com/premium_photo-1661299248074-56b28be1bffd?q=80&w=820&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D=crop"
               alt="African professional during an in‑person verification meeting"
-              height={340}
+              height={360}
               direction="right"
               caption="Real people. Real verification."
               imgProps={{ loading: 'eager', decoding: 'sync' }}

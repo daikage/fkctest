@@ -45,7 +45,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div style={{
-            height: 260,
+            height: 500,
             borderRadius: 14,
             border: '1px dashed rgba(255,255,255,0.15)',
             display: 'grid',
