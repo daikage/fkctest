@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-export default function ClickSound({ src = '/sounds/click.mp3', volume = 0.35 }) {
+export default function ClickSound({ src = '/sounds/click.mp3', volume = 0.0 }) {
   useEffect(() => {
     const audio = new Audio(src)
     audio.preload = 'auto'
